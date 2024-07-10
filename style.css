@@ -37,7 +37,7 @@ header{
     min-height: 652px;
     margin: 0 auto;
     margin-top: 10px;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("./assets/Hero-bg.png");
     background-size: cover;
 }
 .second-container-img{
@@ -197,7 +197,7 @@ header{
     height: 230px;
     text-align: center;
     border-radius: 10px;
-    background-image: url("/assets/handshake.jpg");
+    background-image: url("./assets/handshake.jpg");
     background-size:cover;
     background-position: center;
     position:absolute;
