@@ -187,3 +187,60 @@ header{
 #card-three{
     background-color: rgba(255, 223, 0, 0.05);
 }
+.support{
+    width: 1140px;
+    height: 313px;
+    padding: 5px 160px;
+}
+.last-container{
+    width: 1200px;
+    height: 230px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url("/assets/handshake.jpg");
+    background-size:cover;
+    background-position: center;
+    position:absolute;
+    padding-top: 70px;
+}
+.last-container h2{
+    color: #ffffff;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    width: 900px;
+    padding: 10px 0px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+form input{
+    padding: 10px;
+    width: 40%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background: rgba(13, 19, 33, 0.03);
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links img {
+    width: 24px;
+    margin: 0 10px;
+}
