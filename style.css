@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px 0;
+    text-align: center;
+}
+.nav-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.nav-container h1{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+}
+.resume-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 170px;
+    height: 20px;
+    margin-left: 65%;
+    margin-top: 20px;
+    box-sizing:content-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+}
+.second-container{
+    max-width: 1440px;
+    min-height: 652px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-image: url("/assets/Hero-bg.png");
+    background-size: cover;
+}
+.second-container-img{
+    width: 240.28px;
+    height: 240px;
+    padding: 50px 590px;
+}
+.second-container-content{
+    width: 998px;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 210px;
+}
+.second-container-content h2{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.second-container-content p{
+    text-align: center;
+}
+.btn-two{
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 170px;
+    height: 20px;
+    box-sizing:content-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(13, 19, 33);
+}
+.third-container{
+    width: 1140px;
+    height: 1080px;
+    margin: 100px 185px;
+    
+}
+.third-container-content-one{
+    text-align: center;
+}
+.third-container-content-two{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding: 100px 25px;
+}
+.third-container-content-two img{
+    padding-left: 200px;
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.third-container-content-two p{
+    padding-bottom: 20px;
+}
+.learn-btn{
+    text-decoration: none;
+    padding: 10px 20px;;
+    width: 170px;
+    height: 20px;
+    margin-top: 20px;
+    box-sizing:content-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+}
+.third-container-content-third{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding: 15px 25px;
+}
+.third-container-content-third p{
+    padding-bottom: 20px;
+}
+.third-container-content-four{
+    float: left;
+    padding: 100px 25px;
+}
+.third-container-content-four img{
+    width: 259.56px;
+    height: 217.01px;
+    padding-left: 100px;
+}
+.third-container-content-four p{
+    width: 600px;
+    padding-bottom: 20px;
+}
+.inspiration{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 250px;
+    width: 1000px;
+}
+.yt{
+    width: 1140px;
+    height: 614px;
+}
+.yt-video{
+    padding: 20px 200px;
+}
+.t-paragraph{
+    text-align: center;
+}
+.target{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    height: 500px;
+    
+}
+.card-container {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 364px;
+    height: 299px;
+    text-align:left;
+}
+
+.card h2 {
+    padding-top: 10px;
+}
+
+.card p {
+    color: #666;
+    padding-bottom: 20px;
+}
+#card-one{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+#card-two{
+    background-color:rgba(0, 76, 232, 0.05);
+}
+#card-three{
+    background-color: rgba(255, 223, 0, 0.05);
+}
